@@ -28,3 +28,48 @@
 
 
 Mobile New 
+
+
+
+
+<!--SLIDER ITEM-->
+
+            <div class="premium-carousel-cell">
+
+              <!--PREMIUM IMG-->
+
+              <img src="mobile.jpg" alt="">
+
+              <!--END PREMIUM IMG-->
+
+              <!--PREMIUM TITLE-->
+
+              <div class="P-list-item-title">Premium 1</div>
+
+              <!--END PREMIUM TITLE-->
+
+              <!--PREMIUM DESCRIPTION-->
+
+              <div class="P-list-item-desc">
+
+                Premium 1 is a premium one which is premium and it can be premium at all.
+
+              </div>
+
+              <!--END PREMIUM DESCRIPTION-->
+
+              <!--PREMIUM BUTTON-->
+
+              <button class="P-list-item-btn">
+
+                GET
+
+              </button>
+
+              <!--END PREMIUM BUTTON-->
+
+            </div>
+
+            <!--END SLIDER ITEM-->
+            
+            premium
