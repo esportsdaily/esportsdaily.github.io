@@ -1,8 +1,7 @@
-
-<!--LIST ITEM-->
+ <!--LIST ITEM-->
           <div class="list-item">
             <!--PUBG MOBILE LIST IMAGE-->
-            <img src="mobile.jpg" alt="" class="list-thumbnail">
+            <img src="images/mobile/mobile.jpg" alt="" class="list-thumbnail">
             <!--END PUBG MOBILE LIST IMAGE-->
             <div class="list-desc">
               <!--PUBG MOBILE LIST TITLE-->
