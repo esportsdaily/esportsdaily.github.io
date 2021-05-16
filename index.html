@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 1050px)" href="ministyle.min.css">
+  <!--End stylesheet-->
+
+  <!--Title-->
+  <title>eSportsDaily</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+   <!--End Title-->
+
+  <!--Slider-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!--End Slider-->
+
+   <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet"> 
+  <!--End Fonts-->
+
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/114dee6860.js" crossorigin="anonymous"></script>
+  <!-- END FONTAWESOME -->
+
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--End Jquery-->
+  
+  <!-- visitors count -->
+  <script>
+  function cb(response) {
+      document.getElementById('count').innerText = response.value;
+  }
+  </script>
+  <script async       src="https://api.countapi.xyz/hit/eSportsDaily.hacknon1000.repl.co/visits?callback=cb">
+  </script>
+  <!-- END visitors count -->
+
+</head>
+<body>
+  <!--SideNav-->
+  <div id="mySidenav" class="sidenav">
+    <div class="sidenav-main">
+      <div class="sub-header">
+        <div class="open-nav-btn">
+          <button style="font-size:25px;cursor:pointer;color: #d4d4d4;border: 3px solid grey;border-radius: 8px;padding: 5px 15px;background: transparent;" onclick="closeNav()">&#9776;</button>
+        </div>
+        <img src="images/logo.png" alt="" class="logo">
+        <div class="logo-title">eSports<span style="color: white;">Daily</span></div>
+      </div>
+
+      <div class="nav-item">
+        <div class="fas-ico fas-ico-active">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="nav-item-title">&nbspHOME</div>
+      </div>
+
+      <div class="nav-item">
+        <div class="fas-ico">
+          <i class="fas fa-info"></i>
+        </div>
+        <div class="nav-item-title">&nbspABOUT</div>
+      </div>
+
+    </div>
+    <div class="sidenav-sub" onclick="closeNav()"></div>
+  </div>
+  <!--End SideNav-->
+
+  <!--Header-->
+  <div class="header">
+    <div class="sub-header">
+      <div class="open-nav-btn">
+        <button style="font-size:25px;cursor:pointer;color: #d4d4d4;border: 1px solid grey;border-radius: 8px;padding: 5px 15px;background: transparent;" onclick="openNav()">&#9776;</button>
+      </div>
+      <img src="images/logo.png" alt="" class="logo">
+    <div class="logo-title">eSports<span style="color: white;">Daily</span></div>
+    </div>
+  </div>
+  <!--End Header-->
+
+  <!--Content-->
+  <div class="content">
+
+    <!--PREMIUM-->
+    <div class="section section-2">
+      <div class="tag">PREMIUM</div>
+      <div class="flex-class">
+        <!--SLIDER-->
+        <div class="carousel" data-flickity='{ "groupCells": true, "autoPlay": true }'>
+
+            <!--SLIDER ITEM-->
+            <div class="premium-carousel-cell">
+              <!--PREMIUM IMG-->
+              <img src="https://cdn.discordapp.com/attachments/677046301652680704/843180968700411904/IMG-20210513-WA0029.jpg" alt="">
+              <!--END PREMIUM IMG-->
+              <!--PREMIUM TITLE-->
+              <div class="P-list-item-title">Infamous League 3.0(10k prizepool)</div>
+              <!--END PREMIUM TITLE-->
+              <!--PREMIUM DESCRIPTION-->
+              <div class="P-list-item-desc">
+Infamous League 3.0 is a Free entry tourney By Infamous Esports
+              </div>
+              <!--END PREMIUM DESCRIPTION-->
+              <!--PREMIUM BUTTON (link)-->
+              <button class="P-list-item-btn" onclick="location.href='https://kutt.it/pubgmobileinfamousleagues3'">
+                GET
+              </button>
+              <!--END PREMIUM BUTTON-->
+            </div>
+            <!--END SLIDER ITEM-->
+ </div>
+        <!--END SLIDER-->
+      </div>  
+    </div>
+    <!--END PREMIUM-->
+
+    <!--PUBG MOBILE TOURNAMENTS-->
+    <div class="section section-3">
+      <div class="tag-thumbnail">
+        <div class="tag"><div class="rotate">PUBG <span>MOBILE</span> TOURNAMENTS</div></div>
+      </div>
+
+      <div class="scroll">
+        <div class="list">
+        <!-- LIST-->
+          
+           <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/839247309463355412/841221747533807627/IMG-20210507-WA0029.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Pubg Mobile Indian Cup</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp500K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://kutt.it/pubgmobileindiancups1'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/841393945661800529/841394186900471858/Survival_CUP_Final.png" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">
+Survival Cup 2021</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp50K+20k</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://kutt.it/survivalcup2021'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    RS 400
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          
+          
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/801391084324257802/837230557329883156/PMUS_Announcement_banner.jpg?width=853&height=480" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">
+Pubg mobile unban Series</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp50K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/EVGyJDjv93'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://media.discordapp.net/attachments/825818158220574720/836948459751604284/20210428_181751.jpg?width=683&height=683" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Pubg Mobile Max Tournament</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp50K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://kutt.it/pubgmobilemaxtournament'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://media.discordapp.net/attachments/800021778835046441/833319658030891058/BB_CUP_3.jpg?width=853&height=480" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Big Brother Cup Season 3</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp25K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://kutt.it/bigbrothers3'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+          <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/833597820979904542/834088558959788032/PicsArt_04-20-08.45.45.jpg?width=853&height=480" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Pubg Mobile Comeback Series 1.0</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp15K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/VsyTuvWFXY'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+
+           <!--LIST ITEM-->
+          <div class="list-item">
+            <!- -PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/835018818400157766/842832047646703646/IMG_20210515_000306.png" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Super Veloce Cup </div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp10K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://kutt.it/supervelocecup'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+
+
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/788380544819396648/839575345106518086/poster_announcement.png" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Booster 99 league S3</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp10K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/CTQDgaCEev'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          
+             
+ <!--LIST ITEM-->
+          <div class="list-item">
+            <!- -PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/739757819020181575/835381923949051974/IMG-20210423-WA0099.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Pubg mobile Summer Championship</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp10K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/tCwD4bbbSJ'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+ <!--LIST ITEM-->
+          <div class="list-item">
+            <!- -PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/677046301652680704/837961289288515614/IMG-20210501-WA0007.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Pubg mobile Summer Cup</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp5K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/48Er8twJ6x'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/677046301652680704/839473040860512296/IMG-20210505-WA0429.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">RIOTzNATION X league</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp5K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://forms.gle/oJefQaYsy995AQa99'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+           <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG MOBILE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/729684872700100678/837632855349657600/1619777567706.png" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Pubg Mobile Aqua Cup</div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp3K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/mrKJXS2'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    Free Entry
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+          <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/831912182777380904/832125182281252874/IMG-20210415-WA0004.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Bang Bang Tournament</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp2.5K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/Yxes72jzdy'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          
+        <!--END LIST-->
+        </div>
+      </div>
+    </div>
+    <!--END PUBG MOBILE TOURNAMENTS-->
+
+    <!--PUBG LITE TOURNAMENTS-->
+    <div class="section section-4">
+      <div class="tag-thumbnail">
+        <div class="tag"><div class="rotate">PUBG <span>LITE</span> TOURNAMENTS</div></div>
+      </div>
+
+      <div class="scroll">
+        <div class="list">
+        <!-- LIST-->
+
+          <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/827146463200935936/837408956103262214/1619723684046.png" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">ME Offical CPL Season 3</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp6000 BC</span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/q77MxnPwH8'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/799275658861740054/840537453685112832/IMG-20210508-WA0263.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">ECPL</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp5K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/Xf5sREtZ'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/824290503456456704/838803245354188840/received_465429458014396-1.jpeg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Dot Championship</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp2500BC</span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/tMdbW2cTmX'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/677046301652680704/839374814778097664/images_18.jpeg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">International Premier League</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1.5K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/WEwpcHTemy'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/840870852407984139/840875995988099092/IMG-20210506-WA0000.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Pubg Lite Intense Battle</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='http://bit.ly/pubgmobileliteintensebattle'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/812864881170710562/835344932062363648/images-_2021-04-24T081124.931.jpeg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Rising Stars League</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/hPZZgsfW49'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/837181211977711616/838290131894140938/1619700072705.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Chetak Premier League</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/Cg79YpQMHf'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://media.discordapp.net/attachments/698875647459852338/840240509322919988/bann.png?width=473&height=4732/IM3.jpg/" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Indian Gaming Premier League</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/85ECVY8yEa'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+          <!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/739056039374356550/837531094723067924/1619680640089.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">GodL League Season 3</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K</span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/q77MxnPwH8'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+
+<!--LIST ITEM-->
+          <div class="list-item">
+            <!--PUBG LITE LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/782564855944577044/838233095396261948/IMG-20210501-WA0114.jpg" alt="" class="list-thumbnail">
+            <!--END PUBG LITE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG LITE LIST TITLE-->
+              <div class="list-title">Trinity Champions League</div>
+              <!--END PUBG LITE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG LITE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp1K </span>
+                <!--END PUBG LITE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/jCF4rrXVgf'" class="list-entry-btn">
+                    <!--PUBG LITE ENTRY AMOUNT-->
+                    FREE ENTRY
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          
+          <!--LIST ITEM-->
+
+          <div class="list-item">
+
+            <!--PUBG LITE LIST IMAGE-->
+
+            <img src="https://cdn.discordapp.com/attachments/677046301652680704/837996444304408606/Screenshot_2021_0501_152525.png" alt="" class="list-thumbnail">
+
+            <!--END PUBG LITE LIST IMAGE-->
+
+            <div class="list-desc">
+
+              <!--PUBG LITE LIST TITLE-->
+
+              <div class="list-title">SuperHeros Battle Tournament </div>
+
+              <!--END PUBG LITE LIST TITLE-->
+
+              <div class="list-prize">Prize Amount&nbsp
+
+                <!--PUBG LITE PRIZE AMOUNT-->
+
+                <span>&#8377;&nbsp500 rs</span>
+
+                <!--END PUBG LITE PRIZE AMOUNT-->
+
+              </div>
+
+              <div class="list-entry">
+
+                <div class="list-entry">
+
+                  <button onclick="location.href='https://discord.gg/Env5jxm'" class="list-entry-btn">
+
+                    <!--PUBG LITE ENTRY AMOUNT-->
+
+                    FREE ENTRY
+
+                    <!--END PUBG LITE ENTRY AMOUNT-->
+
+                  </button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!--END LIST ITEM-->
+
+          <!--END LIST-->
+        </div>
+      </div>
+    </div>
+    <!--END PUBG LITE TOURNAMENTS-->
+    
+     <!--OTHER TOURNAMENTS-->
+    <div class="section section-3">
+      <div class="tag-thumbnail">
+        <div class="tag"><div class="rotate">OTHER<span></span> TOURNAMENTS</div></div>
+      </div>
+
+      <div class="scroll">
+        <div class="list">
+        <!-- LIST-->
+          
+          <!--LIST ITEM-->
+          <div class="list-item">
+            <!--OTHER LIST IMAGE-->
+            <img src="https://cdn.discordapp.com/attachments/797430758854623253/828111557656707102/1617507427040.png" alt="" class="list-thumbnail">
+            <!--END PUBG MOBILE LIST IMAGE-->
+            <div class="list-desc">
+              <!--PUBG MOBILE LIST TITLE-->
+              <div class="list-title">Free Fire Summer Cup
+ </div>
+              <!--END PUBG MOBILE LIST TITLE-->
+              <div class="list-prize">Prize Amount&nbsp
+                <!--PUBG MOBILE PRIZE AMOUNT-->
+                <span>&#8377;&nbsp2K</span>
+                <!--END PUBG MOBILE PRIZE AMOUNT-->
+              </div>
+              <div class="list-entry">
+                <div class="list-entry">
+                  <button onclick="location.href='https://discord.gg/RSDM5uddaN'" class="list-entry-btn">
+                    <!--PUBG MOBILE ENTRY AMOUNT-->
+                    Free Entry
+                    <!--END PUBG MOBILE ENTRY AMOUNT-->
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END LIST ITEM-->
+          <!--END LIST-->
+        </div>
+      </div>
+    </div>
+    <!--END PUBG MOBILE TOURNAMENTS-->
+
+          
+    <!--VISITORS COUNT-->
+    <div class="section section-5">
+      <div class="visit-count">
+        
+        <div id="count">0</div>
+        <div class="visit-tag">Visited</div>
+      </div>  
+    </div>
+    <!--END VISITORS COUNT-->
+    
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="social-icons">
+        <!--WHATSAPP-->
+        <a href="https://chat.whatsapp.com/JEHQ9FOaJMi8bXkwDQSuXd" target="_blank">
+        <!--END WHATSAPP-->
+            <div class="fab-class fab-whatsapp">
+              <i id="whatsapp-icn" class="fab fa-whatsapp"></i>
+            </div>
+        </a>
+        <!--INSTAGRAM-->
+        <a href="https://instagram.com/_esportsdaily_?igshid=1xifmsei6shk6" target="_blank">
+        <!--END INSTAGRAM-->
+            <div class="fab-class fab-instagram">
+              <i id="instagram-icn" class="fab fa-instagram"></i>
+            </div>
+        </a>
+        <!--FACEBOOK-->
+        <a href="https://www.facebook.com/ESports-Daily-105646001496738/" target="_blank">
+        <!--END FACEBOOK-->
+            <div class="fab-class fab-facebook">
+              <i id="facebook-icn" class="fab fa-facebook"></i>
+            </div>
+        </a>
+        <!--DISCORD-->
+        <a href="https://discord.gg/4b2E6DPdSC" target="_blank">
+        <!--END DISCORD-->
+            <div class="fab-class fab-discord">
+              <i id="discord-icn" class="fab fa-discord"></i>
+            </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+  <!--END SCRIPT-->
+
+  <!--IMAGE SLIDER SCRIPT-->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround: true,
+      freeScroll: true
+    });
+  </script>
+  <!--END IMAGE SLIDER SCRIPT-->
+</body>
+</html>
