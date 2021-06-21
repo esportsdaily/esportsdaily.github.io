@@ -35,6 +35,16 @@ Mobile New
               <!--PREMIUM IMG-->
               <img src="images/premium/mobile.jpg" alt="">
               <!--END PREMIUM IMG-->
+              
+              
+              
+              
+              https://cl1p.net/tournaments
+              https://cl1p.net/tournaments
+              https://cl1p.net/tournaments
+              
+              deleted
+              https://cl1p.net/deleted
               <!--PREMIUM TITLE-->
               <div class="P-list-item-title">Premium 1</div>
               <!--END PREMIUM TITLE-->
